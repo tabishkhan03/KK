@@ -1,0 +1,30 @@
+.custom-btn{
+    text-decoration: none;
+    color: var(--tertiary-color);
+    /* background-color: var(--nav-color); */
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden!important;
+    z-index: 10;
+}
+
+.custom-btn::after{
+    transition: .4s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+   background-color: var(--nav-color);
+    height: 100%;
+    z-index: -1;
+}
+.custom-btn:hover{
+    color: var(--tertiary-color);
+}
+.custom-btn:hover:after{
+    transform: translateX(-25%);
+}

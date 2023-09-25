@@ -1,0 +1,13 @@
+.sidebar-container{
+    width: 20%;
+    position: sticky;
+    top: 105px;
+    left: 0;
+    background-color: var(--secondary-color);
+    height: 100%;
+    z-index: 0;
+}
+
+.white{
+    color: white;
+}

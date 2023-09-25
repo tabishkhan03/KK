@@ -1,0 +1,11 @@
+figure{
+
+}
+figure img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.pr-details strong{
+    display: inline-block;
+}

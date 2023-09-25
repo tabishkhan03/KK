@@ -1,0 +1,14 @@
+:root{
+    --primary-color:#ff0000;
+    --secondary-color:black;
+    --tertiary-color:white;
+    --nav-color:#20b2aa;
+}
+  
+.hide{
+    display: none;
+}
+
+.block{
+    display: block;
+}
